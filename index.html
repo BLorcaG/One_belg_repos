@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encriptador / Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Encriptador / Desencriptador de texto</h2>
+      <input type="text" id="inputText" class="input-text" placeholder="Ingrese su texto aquí">
+
+      <div class="input-bar">
+        <div class="input-bar__icon">⚠️</div>
+        <div>Solo letras minúsculas y sin acento</div>
+      </div>
+
+      <button id="btnEncriptar" class="btn btn-encriptar">Encriptar</button>
+      <button id="btnDesencriptar" class="btn btn-desencriptar">Desencriptar</button>
+
+      <h3>Resultado:</h3>
+      <pre id="resultado"></pre>
+    </div>
+
+    <script src="encriptador.js"></script>
+  </body>
+</html>
+
